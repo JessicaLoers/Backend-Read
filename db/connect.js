@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+// Retrieve the MongoDB connection string from an environment variable (MONGODB_URI).
 const MONGODB_URI = process.env.MONGODB_URI;
 
 if (!MONGODB_URI) {
